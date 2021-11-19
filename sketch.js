@@ -60,7 +60,7 @@ gameover.scale=0.2
 gameover.visible=false
 restart=createSprite(width/2,height-300)
 restart.addImage ("over",reset)
-restart.scale=0.88
+restart.scale=0.08
 restart.visible=false
 grupopinos=new Group()  
 gruponubes=new Group()
