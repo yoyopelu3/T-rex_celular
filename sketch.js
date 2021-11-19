@@ -186,6 +186,7 @@ function puntaje() {
 puntuacion=puntuacion+Math.round(getFrameRate() / 60 );
 puntuacionfinal=puntuacion
 fill (148, 57, 147 )
+textSize(30)
 text(puntuacion,width-50,30)
 if (puntuacion%100==0&&puntuacion>0)  {
 puntos.play()  
