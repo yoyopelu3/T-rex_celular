@@ -109,6 +109,7 @@ final.y=Dino.y
 final.visible=true
 Dino.visible=false
 fill (148, 57, 147 )
+textSize(30)
 text(puntuacionfinal,width-50,30)
 gameover.visible=true
 restart.visible=true
