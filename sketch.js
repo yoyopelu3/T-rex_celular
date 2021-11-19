@@ -41,7 +41,7 @@ function preload(){
 function setup(){
   createCanvas (windowWidth,windowHeight)
   
-  suelo=createSprite(300,height-100)
+  suelo=createSprite(300,height-240)
   suelo.addImage("es el fondo",camino)
   suelo.scale=1
   suelo.velocityX=-4
@@ -54,13 +54,13 @@ function setup(){
   final.addImage("choque",trexfin)
   final.scale=0.4
   final.visible=false
-gameover=createSprite(width/2,height/3)
+gameover=createSprite(width/2,height-350)
 gameover.addImage ("over",over)
 gameover.scale=0.2
 gameover.visible=false
-restart=createSprite(width/2,height/1.5)
+restart=createSprite(width/2,height-300)
 restart.addImage ("over",reset)
-restart.scale=0.08
+restart.scale=0.88
 restart.visible=false
 grupopinos=new Group()  
 gruponubes=new Group()
