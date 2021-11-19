@@ -41,7 +41,7 @@ function preload(){
 function setup(){
   createCanvas (windowWidth,windowHeight)
   
-  suelo=createSprite(300,height-240)
+  suelo=createSprite(300,height-100)
   suelo.addImage("es el fondo",camino)
   suelo.scale=1
   suelo.velocityX=-4
